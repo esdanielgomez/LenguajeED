@@ -1,0 +1,23 @@
+caho 
+VAR
+ ENTERO x
+ CADENA
+ DOBLE
+
+hola caho 
+
+ESCRIBIR (
+LEER (x)
+SI (condicion)
+
+ENTONCES
+ 
+CASO CONTRARIO
+
+hola SI
+ 
+MIENTRAS (condicion)
+hola MIENTRAS 
+PARA (x) 
+hola PARA 
+// esto es una prueba de x 

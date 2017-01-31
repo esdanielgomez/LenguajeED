@@ -1,0 +1,33 @@
+PROGRAMA
+VAR
+DOBLE doblea, dobleb;
+CADENA v[210], bb ,dan [22], x, y  ;
+ESCRIBIR("MI PRIMER PRO EN ED");
+LEER (doblea);
+            ESCRIBIR   ( doblea );
+VAR
+CADENA cada, cadb, r, s;
+ENTERO a, enta, entb, j, o;
+ENTERO dl25, aux;
+DOBLE w, z;
+         v :=   x;    
+        cada := cadb;
+PARA(a = 98 + doblea   , doblea  <= dobleb  ,+1)
+     SI( dl25 <> 989 )
+     ENTONCES
+          a := 25 + ( ( ( doblea  *  2.5 ) +6 )+ dobleb );
+     CASOCONTRARIO
+       LEER(a );
+       ESCRIBIR( doblea);
+     FINSI
+LEER( cada);
+LEER ( enta );
+       LEER(  dan);
+LEER (o);
+LEER(w );
+LEER(z);
+     MIENTRAS(a<25 )
+           bb := "Hola mundo, como estan todos ustedes.";
+     FINMIENTRAS
+FINPARA
+FINPROGRAMA

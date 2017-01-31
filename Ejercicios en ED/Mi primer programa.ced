@@ -1,0 +1,20 @@
+PROGRAMA
+
+ESCRIBIR("Bienvenido a tu primer programa.");
+VAR
+ENTERO a, b;
+DOBLE total;
+
+ESCRIBIR("\nIngrese el primer numero: ");
+LEER( a );
+
+ESCRIBIR("Ingrese el segundo numero: ");
+LEER( b);
+
+total := a + b;
+
+ESCRIBIR("\n\nLa suma de los dos numeros es: ");
+ESCRIBIR(total);
+
+
+FINPROGRAMA

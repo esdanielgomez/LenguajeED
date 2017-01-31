@@ -1,0 +1,131 @@
+EL COMPILADOR
+
+Un compilador es un programa de tipo traductor que tiene por objeto transformar  código escrito en un lenguaje de alto  nivel
+a un programa que entienda la máquina (generalmente código de máquina).  El compilador servirá para traducir un lenguaje de
+programación en español al que llamaremos Lenguaje ED no a código de máquina, sino a lenguaje C.
+
+VENTANA DE BIENVENIDA
+
+En esta ventana se visualizará  el  logotipo  del  Lenguaje  ED  y  este  tendrá  un único botón llamado “Aceptar", el cual se deberá
+presionar para acceder a la ventana del Editor con sus opciones correspondientes.
+
+CREACIÓN DE UN NUEVO ARCHIVO
+
+Esta opción permite crear un archivo en Lenguaje ED, para ello, solo hay que dar clic en el botón “Nuevo” o en el menú desplega-
+ble de archivo en la opción “Nuevo”, una vez hecho esto, se le activaran todas las opciones menos las de compilar y ejecutar.
+
+ABRIR UN ARCHIVO
+
+Esta opción permite recuperar un archivo almacenado con anterioridad con la extensión ced. Una vez realizado esto, se habilita-
+ran todas las opciones, incluyendo el compilar y el ejecutar.
+
+GUARDAR UN ARCHIVO
+
+Esta  opción  almacena  todos  los  caracteres  de  un  archivo  de  texto  con  la  extensión  ced en la ruta en donde el usuario la ha
+seleccionado.
+
+COPIAR
+
+Esta opción copia los caracteres que se hayan seleccionado en el texto.
+
+PEGAR
+
+Esta opción pega los caracteres  en  la  ubicación actual del cursor  que  se hayan copiado anteriormente desde el editor o desde
+cualquier otro programa.
+
+CORTAR
+
+Esta opción corta los caracteres que se hayan seleccionado en el texto.
+
+BUSCAR
+
+Busca  una palabra o palabras en  todo el archivo o en el área seleccionada. Para desmarcar las palabras que se han seleccionado,
+se deberá presionar Ctrl + L.
+
+REEMPLAZAR
+
+Reemplaza una palabra por otra en todo el archivo en caso de que existiese.
+
+COMPILAR
+
+Analiza  cada  una  de  las sentencias escritas, en  caso de  encontrar errores de sintaxis los reporta en el área “Mensajes del cons-
+tructor”, mostrando la línea y el tipo de error.
+
+EJECUTAR
+
+Esta opción  traduce  el  código del Lenguaje ED a código de Lenguaje C  con la extensión .c siempre y cuando no  existan  errores 
+de sintaxis en el código del Lenguaje ED.
+
+AYUDA
+
+Es donde se muestran los detalles del lenguaje ED junto con las opciones que este posee.
+
+SINTAXIS
+
+Todo programa deberá empezar con la sentencia PROGRAMA y deberá terminar con la sentencia FINPROGRAMA. Ambas sin 
+punto y coma al final.
+
+Para toda declaración de variables, previo a ello, se deberá escribir la sentencia VAR sin punto y coma.
+
+Para la declaración  de  variables,  se  podrán  crear  varias  a  la  vez  separadas  por coma, al final de la instrucción deberá ir punto
+y coma.
+
+Para mostrar mensajes por pantalla, se  deberá  escribir  la  palabra  reservada  ESCRIBIR,  junto  con  los paréntesis  respectivos, 
+dentro de  dichos  paréntesis  es  válido  poner  el  nombre  de  la variable, o el conjunto de caracteres que se desean visualizar, al 
+final de esta instrucción, deberá ir punto y coma. 
+
+Para leer el contenido de una variable, se deberá escribir la palabra reservada LEER, junto con los paréntesis respectivos, dentro 
+de dichos paréntesis debe ir únicamente el nombre de la variable a leer.  Al final de esta instrucción, deberá ir punto y coma.
+
+Para el comparador SI y los bucles PARA y MIENTRAS, usted podrá usar los comparadores >, >=, <, <=, = o <>.
+
+La estructura del SI tiene únicamente la forma: SI (  a <> b  ). Donde a  y b pueden ser únicamente variables de tipo entero o doble. 
+En vez de las variables también se pueden usar números.
+
+La estructura MIENTRAS tiene la misma forma que la sentencia SI.
+
+
+La estructura para tiene la forma:   PARA (a = 1, a < b, +1  ). En  la  primera  parte  hay  que  seleccionar  el inicio del ciclo PARA, con 
+una  variable   de inicio igualada a otra variable o bien a un número,  en  la   parte   de   la   comparación,   se  podrá   usar  cualquier 
+operador de  comparación   antes  mencionado,  pudiendo  comparar  números y/o  variables,  en  la  parte  final,  se  seleccionará  
+el  incremento  o  decremento escribiendo únicamente el número ya sea positivo o negativo. Esta sentencia no lleva punto y coma.
+
+
+Para las asignaciones se  debe empezar con el nombre de la variable a la que se le va hacer la asignación, después ira el operador 
+:= y luego si la  variable  a  asignar  es  de  tipo  cadena,  se  podrá asignar un conjunto  de caracteres entre comillas u otra variable 
+de tipo cadena  seguido   del  punto  y  coma  en  ambos  casos.  Si  la  variable   a    asignar   es  entera  o  doble,  podrá  realizar  las  
+operaciones únicamente con variables de ese tipo, finalmente, deberá ir un punto y coma.
+
+INSTRUCCIONES PARA USO CORRECTO DEL SISTEMA
+
+El entorno de desarrollo ED se ha programado para brindar  la  mejor  experiencia al usuario, pero en ciertas situaciones, hay que 
+tener  en cuenta lo siguiente:
+
+En  ninguna  instrucción  se  permite  el  uso de saltos de espacio  con el  TAB,  para  crear viñetas entre las líneas se deberá teclear 
+varios espacios hasta que usted lo desee.
+
+Hay que limitarse a la sintaxis, cualquier carácter que no corresponda a la instrucción, será reportado como error.
+
+Para  las  asignaciones  a  las  variables,  la instrucción deberá comenzar únicamente  por  un  número,  por  una   variable o con un 
+paréntesis, si empieza con otra cosa, el sistema tomara como un error en la sintaxis, pero  después  de que  se haya  iniciado con 
+una variable o bien  con un número, usted podrá usar tantos paréntesis requiera, solo es necesario que tenga en cuenta que cada 
+paréntesis  que  se  habrá,   deberá  ser  cerrado  posteriormente,  si  no  es  así,  el sistema  reportara este error. Así mismo no es 
+permitido  que  los  operadores  estén   juntos,   por ejemplo,  no  se  puede  dar  que  5  +* 3,  si  ocurre  esto,  el sistema reportara 
+un error  indicando  que  los  operadores    están juntos. Para el  caso  de  las  variables  cadenas,  es su responsabilidad asignar un 
+numero de caracteres  que no sobrepase a la dimensión de esa variable, si se llega a sobrepasar del límite, el sistema no generara
+errores, pero puede darse  que, a la hora  de escribirlas, este arroje datos basura en los caracteres que se pasaron del límite.
+
+Para  la  declaración  de  variables,  será  necesario  inicializar  esas   declaraciones  con  la sentencia  VAR  previamente escrita, se 
+podrán declarar  varias  variables,  todas  ellas  separadas  por  coma  pero  lo  que  no   es  permitido  es  asignar  algún  valor  a la 
+variable durante la declaración, para ello en otra línea  deberá  asignar  dichos  valores  con  el  operador  :=.  Para  el  caso  de  las 
+variables de tipo cadena usted  podrá establecerles su respectiva dimensión, si  no lo hace el  sistema  le  asignara  una  dimensión
+ automáticamente  de  100. Para  los nombres de  las  variables,  usted  no podrá establecer nombres  de palabras reservadas del 
+Lenguaje  de  ED  ni del Lenguaje C, si es así, el sistema le reportara errores.  El nombre  de  las  variables  no  puede  empezar  con 
+números.  Para   evitar   inconvenientes   será  mejor   que  las  variables  no  contengan   ningún  símbolo,  sino  que  más  bien  solo 
+contengan letras y números después de las letras. 
+
+Gracias por preferirnos.
+
+DG System's y DG Media.
+
+

@@ -1,0 +1,46 @@
+
+//Codigo generado por el Lenguaje ED
+ 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+ 
+int main()
+{
+ 
+    double doblea,dobleb;
+    char v[210], bb[100], dan[22], x[100], y[100]; 
+    printf("MI PRIMER PRO EN ED" );
+    scanf("%f", &doblea);
+    printf("%f", doblea);
+    char cada[100], cadb[100], r[100], s[100]; 
+    int a,enta,entb,j,o;
+    int dl25,aux;
+    double w,z;
+    strcpy(v, x);
+    strcpy(cada, cadb);
+    for(a = 98 + doblea   ; doblea  <= dobleb  ; a+=+1)
+    {
+    if( dl25 != 989 )
+    {
+    a = 25 + ( ( ( doblea  *  2.5 ) +6 )+ dobleb );
+    }
+    else
+    {
+    scanf("%d", &a);
+    printf("%f", doblea);
+    }
+    scanf("%s", &cada);
+    scanf("%d", &enta);
+    scanf("%s", &dan);
+    scanf("%d", &o);
+    scanf("%f", &w);
+    scanf("%f", &z);
+    while(a<25 )
+    {
+    strcpy(bb, "Hola mundo, como estan todos ustedes.");
+    }
+    }
+ 
+    return 0;
+}

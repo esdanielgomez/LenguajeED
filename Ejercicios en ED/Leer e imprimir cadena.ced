@@ -1,0 +1,12 @@
+PROGRAMA
+
+VAR
+CADENA a[25], b[30];
+ESCRIBIR("MANEJO DE CAD\n");
+ESCRIBIR("Ingrese la primera cadena: ");
+LEER(a);
+b := a;
+ESCRIBIR("LA CAD INGRESADA FUE: ");
+ESCRIBIR(b);
+
+FINPROGRAMA

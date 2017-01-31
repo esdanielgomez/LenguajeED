@@ -1,0 +1,45 @@
+PROGRAMA
+
+ ENTERO num,i,j;
+ ENTERO suma;
+ ENTERO factorial;
+ ENTERO suma_fac;
+ ENTERO tmp;
+ DOBLE nousado;
+ CADENA texto;
+
+MIENTRAS (num<=0) 
+    texto:="\t\n\t\t Digite un numero entero positivo: ";
+    ESCRIBIR(texto);
+    LEER(num);
+    ESCRIBIR("\n");
+FINMIENTRAS
+ 
+PARA(i=1,num=1,+1)
+    tmp:=(num/2);
+
+   SI(num=tmp)
+    ENTONCES
+        suma:=suma+i;
+        factorial:=1;
+        PARA(j=1,j=i,+1)
+            factorial:=factorial*j;
+        FINPARA
+        suma_fac:=(suma_fac+factorial);
+    
+   FINSI
+    SI (suma=num)
+   ENTONCES
+       ESCRIBIR(num);
+       ESCRIBIR("\n\t Es un numero es perfecto");
+       ESCRIBIR("\n\t\t La suma de sus divisores es:");
+       ESCRIBIR(suma);
+       ESCRIBIR("\n\t\t La suma de los factoriales de sus divisores es:");
+       ESCRIBIR(suma_fac);
+    CASOCONTRARIO
+       ESCRIBIR(num);
+       ESCRIBIR("\n\t\tEl numero no es un numero perfecto");
+    FINSI
+FINPARA
+
+FINPROGRAMA
